@@ -1,9 +1,22 @@
+@font-face {
+font-family: 'Rosemary';
+font-style: normal;
+font-weight: normal;
+src: local('Rosemary'), url('../assets/fonts/rosemary.woff') format('woff');
+}
+
 html,
 body {
   font-size: 14px;
-  background-color:#6F42C1;
+  background: url("../assets/images/background_unfocused.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:Rosemary;
   color:#ffffff;
 }
+
 @media (min-width: 768px) {
     html {
         font-size: 16px;
