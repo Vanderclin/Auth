@@ -29,10 +29,14 @@ body {
   margin-top:20%;
     max-width: 700px;
 }
-#footer {
-  font-size:12pt;
-  position: fixed;
-  bottom: 0;
-  left:0;
-  width: 100%;
+
+.ml12 {
+  
+  letter-spacing: 0.0em;
+  text-transform: uppercase;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
 }
